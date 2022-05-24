@@ -1,0 +1,49 @@
+body {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: grey;
+  color: darkblue;
+  text-align: center;
+}
+header {
+  margin: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: #022b3a;
+}
+h1 {
+  color: aqua;
+  background-color: #022b3a;
+  margin: 0;
+}
+h2 {
+  color: aliceblue;
+}
+h3 {
+  text-align: center;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 50px;
+  width: 30%;
+  margin: 15px;
+}
+
+.hidden {
+  display: none;
+}
+p {
+  margin-right: 15px;
+}
